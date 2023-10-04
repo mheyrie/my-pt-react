@@ -1,0 +1,32 @@
+{
+  "projects": [
+     {
+          "id": 1,
+          "name": "To-do List",
+          "about": "Capturing and deleting of task also displayed time and date",
+          "technologies": ["HTML", "CSS", "JavaScript", "Github"],
+          "link": "https://mheyrie.github.io/todo-list-phase1/"
+      },
+      {
+          "id": 2,
+          "name": "Recipe App",
+          "about": "Searching of various recipe for Nigerian foods",
+          "technologies": ["React", "Github"],
+          "link": "https://papaya-jalebi-eea0f1.netlify.app/"
+      },
+      {
+          "id": 3,
+          "name": "Meme Generator",
+          "about": "Random generating of Memes",
+          "technologies": ["React", "Github"],
+          "link": "https://papaya-jalebi-eea0f1.netlify.app/"
+      },
+      {
+        "id": 3,
+        "name": "Alienwares",
+        "about": "Etsy for aliens",
+        "technologies": ["React", "Redux", "Rails"],
+        "link": "https://papaya-jalebi-eea0f1.netlify.app/"
+    }
+  ]
+}
