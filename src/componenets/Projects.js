@@ -11,7 +11,22 @@ useEffect(() =>{
 }, [])
 
   return (
-    <div>Project</div>
+    <div className="projects" id="projects">
+      <div>Project</div>
+      <div>Project</div>
+      <div>Project</div>
+      <div>Project</div>
+      <div>Project</div>
+      <div>Project</div>
+      <div>Project</div>
+      <div>Project</div>
+      <div>Project</div>
+      <div>Project</div>
+      <div>Project</div>
+      <div>Project</div>
+      <div>Project</div>
+      <div>Project</div>
+    </div>
   )
 }
 
