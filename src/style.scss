@@ -1,9 +1,16 @@
+$primaryColor: #654b4b;
+$SecondaryColor: #3e1e1e;
+
+body{
+    margin:20px;
+}
+
 .App{
     //Global Styling
     *{
         margin: 0;
         font-family: "Roboto", sans-serif;
-        font-style: normal;
+        padding: 0;
     }
     h1,h2,h3,h4,h5,h6,p{
         margin: 0;
@@ -18,34 +25,53 @@
         border-radius: 5px;
         cursor: pointer;
     }
+
+    
+    .btn_outline_primary {
+        background-color:rgb(249, 243, 243);
+        border: 1px solid rgb(170, 151, 151);
+    }
+
+    .btn_outline_primary:hover {
+        color: white;
+        background-color: black;
+    }
         
         // HOME
         .home{
-            
+            .home_container{
+                margin-top: 90px;
+                padding-top: 25px;
+            }
             .home_content{
                 display: flex;
-                padding: 20px;
+                padding: 10px;
                 align-items: center;
                 justify-content: space-between;
-                gap: 32px;
-                background-color: antiquewhite;
+                margin: -15px;
+                max-width: 1200px; 
+                margin: 0 auto; 
+
             }
             
             .home_text{
                 padding: 10px;
                 width: 100%;
 
-                p{
-                font-size: 10px;
-                padding-top: 10px;
-                }
-
                 .home_title{
-                font-weight: 300px;
-                align-self: stretch;
+                    font-weight: 300px;
+                    align-self: stretch;
                 }
             }
-                
+            
+            .home_holla{
+                font-weight: 600;
+                padding-bottom: 16px;
+                gap: 27px;
+                font-size: 25px;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                color: $primaryColor;
+            }
             
             h1{
                 font-size: 30px;
@@ -68,16 +94,65 @@
             .home_img{
                 img{
                     width:100%;
-                    border-radius: 20px;
-                                   
+                    height: 100%;
+                    border-radius: 50px;
+                    display: flex;       
                 }
                 
             }
         }
+        // NAVBAR
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 25px 50px;
+            box-shadow: 0px 5px 70px black;
+            margin: -15px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            
 
+            .navbar_content{
+                color: $SecondaryColor;
+                font-size: 25px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px;
+                cursor: pointer;
+            }
+
+            .navbar_active_content{
+                color: firebrick;
+            }
+            .navbar_items ul{
+                list-style: none;
+                display: flex;
+                align-items: flex- start;
+                gap: 73px;
+                text-decoration: none;
+            }
+
+            .navbar_items  ul > li > a{
+                text-decoration: none;
+            }
+            
+        }
         // ABOUT
         
         // PROJECT
         
+
+        // SKILLS SECTION
+        .skills_section{
+            display: flex;
+            .skills_section_image{
+                img{
+                    width: 40px;
+                }
+            }
+        }
    
 }

@@ -1,21 +1,22 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import React from 'react';
-import './App.css';
-import Navbar from './componenets/Navbar';
-import About from './componenets/About';
-import Projects from './componenets/Projects';
-import Home from './componenets/Home'
+import Navbar from './pages/Homes/Navbar';
+import Home from './pages/Homes/Homescreen'
 import './style.scss';
 
 
 function App() {
   return (
     <div className="App"> 
-      <div className="container">
-        
-        <Home/>
-        
-      </div>  
+      <Router>
+        <div>
+          <Navbar/>
+          <Routes>
+            <Route path="/" element={<Home/>}></Route>
+            <Route path="*" element={<div>404 Not Found</div>}></Route>
+          </Routes>
+        </div>
+      </Router> 
     </div>
   );
 }
