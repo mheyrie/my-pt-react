@@ -10,7 +10,7 @@ function MySkills() {
       </div>
       <div className="skill_section_container">
         {data?.skills?.map(item => (
-          <div key={item.id} className="skills_section_card0">
+          <div key={item.id} className="skills_section_card">
             <div className="skills_section_image">
               <img src={item.src} alt="Products" />
             </div>

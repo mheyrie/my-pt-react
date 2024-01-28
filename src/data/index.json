@@ -27,7 +27,7 @@
         {
             "id":"5",
             "src":"./img/python.png",
-            "title":"HTML",
+            "title":"Python",
             "description":"Python is a popular programming language. Python can be used on a server to create web applications."
         },
         {
@@ -49,5 +49,29 @@
             "description":"SQL is a standard programming language used to operate Relational Databases and carry out various operations such as inserting, manipulating, updating, and retrieving data from relational databases."
         }
         
+    ],
+
+    "portfolio":[
+        {
+            "id":"1",
+            "src":"./img/to-do.png",
+            "title":"To-Do List",
+            "description":"markup language for creating Web pages.",
+            "link":"https://mheyrie.github.io/todo-list-phase1/"
+        },
+        {
+            "id":"2",
+            "src":"./img/first-recipe-attempt.png",
+            "title":"Nigeria Food Recipe",
+            "description":"HTML stands for Hyper Text Markup Language.",
+            "link":"https://github.com/mheyrie/phase2-React-Project"
+        },
+        {
+            "id":"3",
+            "src":"./img/amazon-clone.png",
+            "title":"Amazon Clone",
+            "description":"HTML up language for creating Web pages.",
+            "link":"https://mheyrie.github.io/react-amazon-clone/"
+        }
     ]
 }

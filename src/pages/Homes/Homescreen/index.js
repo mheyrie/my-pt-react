@@ -2,8 +2,8 @@ import React from 'react'
 
 import MySkills from "../MySkills"
 import About from "../About"
-import Projects from "../Projects"
 import Home from "../Home"
+import Portfolio from "../Portfolio"
 
 
 
@@ -13,7 +13,7 @@ function index() {
       <Home/>
       <MySkills/>
       <About/>
-      <Projects/>
+      <Portfolio/>
     </>
   )
 }
