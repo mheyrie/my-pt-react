@@ -5,6 +5,7 @@ import About from "../About"
 import Home from "../Home"
 import Portfolio from "../Portfolio"
 import ContactMe from "../ContactMe"
+import Footer from "../Footer"
 
 
 
@@ -16,6 +17,7 @@ function index() {
       <About/>
       <Portfolio/>
       <ContactMe/>
+      <Footer/>
     </>
   )
 }

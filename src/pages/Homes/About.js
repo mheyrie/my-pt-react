@@ -18,7 +18,7 @@ function About() {
           <p className="about_section_description">
           Outside of coding, you'll find me learning Spanish, Reading, or Knitting. I enjoy spending time at the beach and love traveling. Fun fact: I love coding.
 
-          Ready to collaborate or want to learn more? Let's connect! Explore my portfolio to see some of my latest projects, or reach out via <a href="www.linkedin.com/in/oladele-mary">LinkedIn</a>. I look forward to hearing from you! </p>
+          Ready to collaborate or want to learn more? Let's connect! Explore my portfolio to see some of my latest projects, or reach out via <a href="https://linkedin.com/in/oladele-mary">LinkedIn</a>. I look forward to hearing from you! </p>
 
           {/* <h3>Links</h3>
           <a href="https://github.com/mheyrie">Github</a>

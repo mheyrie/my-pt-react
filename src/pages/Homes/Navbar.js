@@ -56,14 +56,14 @@ function Navbar() {
             <Link onClick={closeMenu} activeClass="navbar_active_content" spy={true} smooth={true} offset={-70} duration={500} to="homeSection" className="navbar_content ">Home</Link>
           </li>
           <li>
-            <Link onClick={closeMenu} activeClass="navbar_active_content" spy={true} smooth={true} offset={-70} duration={500} to="aboutSection" className="navbar_content ">About Me</Link>
+            <Link onClick={closeMenu} activeClass="navbar_active_content" spy={true} smooth={true} offset={-70} duration={500} to="about" className="navbar_content ">About Me</Link>
           </li>
           <li>  
-            <Link onClick={closeMenu} activeClass="navbar_active_content" spy={true} smooth={true} offset={-70} duration={500} to="projectSection" className="navbar_content ">My Portfolio</Link>
+            <Link onClick={closeMenu} activeClass="navbar_active_content" spy={true} smooth={true} offset={-70} duration={500} to="MyPortfolio" className="navbar_content ">My Portfolio</Link>
           </li>
         </ul>
       </div>
-      <Link onClick={closeMenu} activeClass="navbar_active_content" spy={true} smooth={true} offset={-70} duration={500} to="Contact" className="btn btn_outline_primary">Contact Me</Link>
+      <Link onClick={closeMenu} activeClass="navbar_active_content" spy={true} smooth={true} offset={-70} duration={500} to="contact" className="btn btn_outline_primary">Contact Me</Link>
     </nav>
 
   )
