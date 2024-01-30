@@ -40,6 +40,7 @@ body{
     a{
         text-decoration: none;
     }    
+
         // HOME
         .home{
             .home_container{
@@ -147,6 +148,26 @@ body{
             .navbar_items  ul > li > a{
                 text-decoration: none;
             }
+
+            .nav_hamburger{
+                display: none;
+                width: 1.875rem;
+                height: 1.313rem;
+                flex-direction: column;
+                justify-content: space-around;
+                position: absolute;
+                top: 25px;
+                right: 25px;
+            }
+
+            .nav_hamburger_line {
+                display: block;
+                height: 0.188rem;
+                width: 100%;
+                background-color: #000000;
+                border-radius: 0.625rem;
+                transition: all ease-in-out 0.2s;
+              }
             
         }
         // ABOUT
@@ -231,7 +252,7 @@ body{
                 border-top-right-radius: 12px;
                 border-top-left-radius: 12px;
                 min-height: 25px;
-                border-radius: px;
+                border-radius: 4px;
             }
 
             .portfolio_section_card_content{
@@ -246,7 +267,7 @@ body{
 
             button{
                 background: $primaryColor;
-                                
+                font-weight: bolder;
             }
 
             button a{
@@ -408,8 +429,6 @@ body{
                 cursor: pointer;
               }
 
-            
-
             .footer--items ul > li > a {
                 text-decoration: none;
                 cursor: pointer;
@@ -443,5 +462,65 @@ body{
                 line-height: 28px;
               }
           }
-   
 }
+
+// @media screen and (max-width: 1200px) {
+//     .navbar {
+//         .nav_hamburger {
+//             display: flex;
+//             z-index: 200;
+//         }
+
+//         .navbar_items {
+//             display: flex;
+//         }
+
+//         .navbar_items {
+//             position: absolute;
+//             display: flex;
+//             align-items: center;
+//             justify-content: center;
+//             background-color: rgba(255, 255, 255);
+//             top: -20rem;
+//             left: 0;
+//             width: 100%;
+//             transition: all ease-in-out 0.4s;
+//         }
+
+//         .navbar_items ul {
+//             flex-direction: column;
+//             align-items: center;
+//             width: 100%;
+//             padding: 3rem 0 0.6rem;
+//             z-index: -100;
+//         }
+
+//         .navbar_items ul li {
+//             text-align: center;
+//         }
+
+//         .navbar_items ul li a {
+//             padding: 0.5rem;
+//         }
+
+//         .navbar_items {
+//             z-index: -1000;
+//         }
+
+//         .navbar--items.active {
+//             top: 30px;
+//         }
+
+//         .nav_hamburger.active :nth-child(1) {
+//             transform: rotate(45deg) translate(0.45rem, 0.1875rem);
+//         }
+
+//         .nav_hamburger.active :nth-child(2) {
+//             opacity: 0;
+//         }
+
+//         .nav_hamburger.active :nth-child(3) {
+//             transform: rotate(-45deg) translate(0.45rem, -0.1875rem);
+//         }
+//     }
+// }
