@@ -72,6 +72,20 @@
             "title":"Amazon Clone",
             "description":"HTML up language for creating Web pages.",
             "link":"https://mheyrie.github.io/react-amazon-clone/"
+        },
+        {
+            "id":"2",
+            "src":"./img/first-recipe-attempt.png",
+            "title":"Nigeria Food Recipe",
+            "description":"HTML stands for Hyper Text Markup Language.",
+            "link":"https://github.com/mheyrie/phase2-React-Project"
+        },
+        {
+            "id":"3",
+            "src":"./img/amazon-clone.png",
+            "title":"Amazon Clone",
+            "description":"HTML up language for creating Web pages.",
+            "link":"https://mheyrie.github.io/react-amazon-clone/"
         }
     ]
 }
