@@ -10,6 +10,7 @@ import Footer from "../Footer"
 
 
 function index() {
+  
   return (
     <>
       <Home/>

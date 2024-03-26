@@ -5,9 +5,9 @@ function Footer() {
   return (
     <footer className="footer--container">
       <div className="footer--link--container">
-        <div>
+        <Link to="homeSection" className="header-logo">
           <img src="./img/logo.png" alt="code tag" width={30}/>
-        </div>
+        </Link >
         <div className="footer--items">
           <ul>
             <li>

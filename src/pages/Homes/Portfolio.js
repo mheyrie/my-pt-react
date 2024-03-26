@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import data from "../../data/index.json"
+import {scrollEffect} from './Scroll' 
 
 
 function Portfolio(){
+  
+  useEffect(() => {
+    scrollEffect()
+  },[])
+
   return (
     <div className="portfolio_section" id="MyPortfolio">
       <div className="portfolio_container_box">
@@ -18,7 +24,7 @@ function Portfolio(){
       </div>
       <div className="portfolio_section_container">
         {data?.portfolio.map((item, index) => (
-          <div key={index} className="portfolio_section_card">
+          <div key={index} className="portfolio_section_card" data-aos="fade-right">
             <div className="portfolio_section_img">
               <img src={item.src} alt="project snippets" />
             </div>

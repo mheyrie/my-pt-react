@@ -1,7 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import data from "../../data/index.json"
+import {scrollEffect} from './Scroll' 
 
 function MySkills() {
+
+  useEffect(() => {
+    scrollEffect()
+  },[])
+
   return (
     <section className="skills_section" id="mySkills">
       <div className="profolio_container">
@@ -10,15 +16,15 @@ function MySkills() {
       </div>
       <div className="skill_section_container">
         {data?.skills?.map(item => (
-          <div key={item.id} className="skills_section_card">
-            <div className="skills_section_image">
+          <div key={item.id} className="skills_section_card" >
+            <div className="skills_section_image"data-aos="flip-right">
               <img src={item.src} alt="Products" />
             </div>
             <div className="skills_section_card_content">
               <h3 className="skills_section_title">
                 {item.title}
               </h3>
-              <p className="skills_section_description">{item.description}</p>
+              {/* <p className="skills_section_description">{item.description}</p> */}
             </div>
           </div>
         ))}
