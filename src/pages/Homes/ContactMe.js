@@ -6,9 +6,9 @@ function ContactMe() {
         <div>
             <h2>Contact Me</h2>
             <p className="contact_text"><a href="mailto:omota4fidelity@gmail.com">Click here to Send me a direct email</a></p>
-            <p className="contact_text">Or</p>
+            <p className="contact_text one">Or</p>
             <br />
-            <p className="contact_text">Fill the form below </p>
+            <p className="contact_text one">Fill the form below </p>
 
         </div>
         <form className="contact_form_section">
