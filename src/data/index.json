@@ -47,6 +47,12 @@
             "src":"./img/sql.png",
             "title":"SQL",
             "description":"SQL is a standard programming language used to operate Relational Databases and carry out various operations such as inserting, manipulating, updating, and retrieving data from relational databases."
+        },
+        {
+            "id":"9",
+            "src":"./img/tailwind.png",
+            "title":"Tailwind-CSS",
+            "description":"Tailwind CSS is a utility-first CSS framework for rapidly building modern websites without ever leaving your HTML."
         }
         
     ],
