@@ -63,29 +63,36 @@
             "id":"2",
             "src":"./img/first-recipe-attempt.png",
             "title":"Nigeria Food Recipe",
-            "description":"HTML stands for Hyper Text Markup Language.",
+            "description":"This shows different Nigeria cuisine and ingredients",
             "link":"https://github.com/mheyrie/phase2-React-Project"
         },
         {
             "id":"3",
             "src":"./img/amazon-clone.png",
             "title":"Amazon Clone",
-            "description":"HTML up language for creating Web pages.",
+            "description":"E-commerce website",
             "link":"https://mheyrie.github.io/react-amazon-clone/"
         },
         {
             "id":"4",
             "src":"./img/huddle.png",
             "title":"Huddle Landing Page",
-            "description":"HTML stands for Hyper Text Markup Language.",
+            "description":"Landing page",
             "link":"https://mheyrie.github.io/huddle-landing-page-with-curved-sections-master/"
         },
         {
             "id":"5",
             "src":"./img/codegen.png",
             "title":"Code Generator",
-            "description":"HTML up language for creating Web pages.",
+            "description":"Feeling down? this code genetors will definetly make you feel better",
             "link":"https://mheyrie.github.io/jsquotegenerator/"
+        },
+        {
+            "id":"6",
+            "src":"./img/manage-landing-page.png",
+            "title":"Code Generator",
+            "description":"Landing page",
+            "link":"https://mheyrie.github.io/manage-landing-page-master/"
         }
     ]
 }
