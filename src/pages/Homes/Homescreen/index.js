@@ -7,8 +7,6 @@ import Portfolio from "../Portfolio"
 import ContactMe from "../ContactMe"
 import Footer from "../Footer"
 
-
-
 function index() {
   
   return (
