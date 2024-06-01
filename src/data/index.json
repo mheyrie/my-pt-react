@@ -59,6 +59,13 @@
 
     "portfolio":[
         {
+            "id":"7",
+            "src":"./img/receiptify.png",
+            "title":"Receiptify",
+            "description":"This is a collaborative project. It is a document generating platform such as receipts and invoices for small busines owners",
+            "link":"https://github.com/orgs/Receiptify-development/repositories"
+        },
+        {
             "id":"1",
             "src":"./img/to-do.png",
             "title":"To-Do List",
@@ -96,7 +103,7 @@
         {
             "id":"6",
             "src":"./img/manage-landing-page.png",
-            "title":"Code Generator",
+            "title":"Landing Page",
             "description":"Landing page",
             "link":"https://mheyrie.github.io/manage-landing-page-master/"
         }

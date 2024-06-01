@@ -249,7 +249,7 @@ body{
                 flex: 1 0 0;
                 background: whitesmoke;
                 box-shadow: 0 0 32px 0 black;
-                cursor: pointer;
+                // cursor: pointer;
                 border-top-right-radius: 12px;
                 border-top-left-radius: 12px;
                 min-height: 25px;
@@ -257,7 +257,7 @@ body{
             }
 
             .portfolio_section_card:hover{
-                transform: translateY(-20px);
+                transform: translateY(-10px);
             }
             .portfolio_section_card_content{
                 display: flex;
@@ -266,12 +266,14 @@ body{
                 flex-direction: column;
                 align-items: stretch;
                 gap: 32px;
+                max-width: 100%;
                 align-items: center;
             }
 
             button{
                 background: $primaryColor;
                 font-weight: bolder;
+                
             }
 
             button a{

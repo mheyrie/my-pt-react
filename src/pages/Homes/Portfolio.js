@@ -35,7 +35,7 @@ function Portfolio(){
               </div>
               {/* <p className="portfolio_link">{item.link}</p> */}
               <button className="btn portfolio_hosted_link">
-                <a href={item.link}>View Full Project</a>
+                <a href={item.link} target="_blank">View Full Project</a>
               </button>
               
             </div>
