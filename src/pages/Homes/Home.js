@@ -26,7 +26,7 @@ function Home() {
             </a>
           </div>
           <div className="home_img">
-            <img src="./img/side4.webp" alt="code" />
+            <img src=".\img\banner1.png" alt="code" />
           </div>
         </div>
       </div>  
