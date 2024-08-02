@@ -102,10 +102,17 @@
         },
         {
             "id":"6",
-            "src":"./img/manage-landing-page.png",
-            "title":"Landing Page",
-            "description":"Landing page",
-            "link":"https://mheyrie.github.io/manage-landing-page-master/"
+            "src":"./img/codegen.png",
+            "title":"Code Generator",
+            "description":"Feeling down? this code genetors will definetly make you feel better",
+            "link":"https://mheyrie.github.io/jsquotegenerator/"
+        },
+        {
+            "id":"7",
+            "src":"./img/shoebay.png",
+            "title":"ShoeBay",
+            "description":"Eshop for shoes",
+            "link":"https://mheyrie.github.io/shoesbay/"
         }
     ]
 }
