@@ -1,118 +1,123 @@
 {
-    "skills":[
+    "skills": [
         {
-            "id":"1",
-            "src":"./img/html.png",
-            "title":"HTML",
-            "description":"HTML stands for Hyper Text Markup Language. HTML is the standard markup language for creating Web pages."
+            "id": "1",
+            "src": "./img/html.png",
+            "title": "HTML",
+            "description": "HTML stands for Hyper Text Markup Language. HTML is the standard markup language for creating Web pages."
         },
         {
-            "id":"2",
-            "src":"./img/css.png",
-            "title":"CSS",
-            "description":"CSS, or Cascading Style Sheets, offers a flexible way to style web content, with styles originating from browser defaults, user preferences, or web designers."
+            "id": "2",
+            "src": "./img/css.png",
+            "title": "CSS",
+            "description": "CSS, or Cascading Style Sheets, offers a flexible way to style web content, with styles originating from browser defaults, user preferences, or web designers."
         },
         {
-            "id":"3",
-            "src":"./img/js.png",
-            "title":"JavaScript",
-            "description":"JavaScript is a scripting or programming language that allows you to implement complex features on web pages."
+            "id": "3",
+            "src": "./img/js.png",
+            "title": "JavaScript",
+            "description": "JavaScript is a scripting or programming language that allows you to implement complex features on web pages."
         },
         {
-            "id":"4",
-            "src":"./img/React.png",
-            "title":"React",
-            "description":"React is the library for web and native user interfaces. Build user interfaces out of individual pieces called components written in JavaScript."
+            "id": "4",
+            "src": "./img/React.png",
+            "title": "React",
+            "description": "React is the library for web and native user interfaces. Build user interfaces out of individual pieces called components written in JavaScript."
         },
         {
-            "id":"5",
-            "src":"./img/python.png",
-            "title":"Python",
-            "description":"Python is a popular programming language. Python can be used on a server to create web applications."
+            "id": "5",
+            "src": "./img/python.png",
+            "title": "Python",
+            "description": "Python is a popular programming language. Python can be used on a server to create web applications."
         },
         {
-            "id":"6",
-            "src":"./img/scss.png",
-            "title":"SASS",
-            "description":"Sass is an easy-to-use styling language that helps reduce a lot of the repetition and maintainability challenges of traditional CSS"
+            "id": "6",
+            "src": "./img/scss.png",
+            "title": "SASS",
+            "description": "Sass is an easy-to-use styling language that helps reduce a lot of the repetition and maintainability challenges of traditional CSS"
         },
         {
-            "id":"7",
-            "src":"./img/flask.png",
-            "title":"Flask",
-            "description":"Flask is a web framework, it's a Python module that lets you develop web applications easily."
+            "id": "7",
+            "src": "./img/flask.png",
+            "title": "Flask",
+            "description": "Flask is a web framework, it's a Python module that lets you develop web applications easily."
         },
         {
-            "id":"8",
-            "src":"./img/sql.png",
-            "title":"SQL",
-            "description":"SQL is a standard programming language used to operate Relational Databases and carry out various operations such as inserting, manipulating, updating, and retrieving data from relational databases."
+            "id": "8",
+            "src": "./img/sql.png",
+            "title": "SQL",
+            "description": "SQL is a standard programming language used to operate Relational Databases and carry out various operations such as inserting, manipulating, updating, and retrieving data from relational databases."
         },
         {
-            "id":"9",
-            "src":"./img/tailwind.png",
-            "title":"Tailwind-CSS",
-            "description":"Tailwind CSS is a utility-first CSS framework for rapidly building modern websites without ever leaving your HTML."
+            "id": "9",
+            "src": "./img/tailwind.png",
+            "title": "Tailwind-CSS",
+            "description": "Tailwind CSS is a utility-first CSS framework for rapidly building modern websites without ever leaving your HTML."
         }
-        
     ],
-
-    "portfolio":[
+    "portfolio": [
         {
-            "id":"7",
-            "src":"./img/receiptify.png",
-            "title":"Receiptify",
-            "description":"This is a collaborative project. It is a document generating platform such as receipts and invoices for small business owners",
-            "link":"https://github.com/orgs/Receiptify-development/repositories"
+            "id": "",
+            "src": "./img/zuri.jpg",
+            "title": "Zuri-Africa",
+            "description": "Tailwind-Css, Context, Vite",
+            "link": "https://www.zuriafrica.com/"
         },
         {
-            "id":"1",
-            "src":"./img/to-do.png",
-            "title":"To-Do List",
-            "description":"This is a to-do list use to update and remove/delete completed task",
-            "link":"https://mheyrie.github.io/todo-list-phase1/"
+            "id": "8",
+            "src": "./img/receiptify.png",
+            "title": "Receiptify",
+            "description": "This is a collaborative project. It is a document generating platform such as receipts and invoices for small business owners",
+            "link": "https://github.com/orgs/Receiptify-development/repositories"
         },
         {
-            "id":"2",
-            "src":"./img/first-recipe-attempt.png",
-            "title":"Nigeria Food Recipe",
-            "description":"This shows different Nigeria cuisine and ingredients",
-            "link":"https://github.com/mheyrie/phase2-React-Project"
+            "id": "1",
+            "src": "./img/to-do.png",
+            "title": "To-Do List",
+            "description": "This is a to-do list use to update and remove/delete completed task",
+            "link": "https://mheyrie.github.io/todo-list-phase1/"
         },
         {
-            "id":"3",
-            "src":"./img/amazon-clone.png",
-            "title":"Amazon Clone",
-            "description":"E-commerce website",
-            "link":"https://clone-eshop.web.app/"
+            "id": "2",
+            "src": "./img/first-recipe-attempt.png",
+            "title": "Nigeria Food Recipe",
+            "description": "This shows different Nigeria cuisine and ingredients",
+            "link": "https://github.com/mheyrie/phase2-React-Project"
         },
         {
-            "id":"4",
-            "src":"./img/huddle.png",
-            "title":"Huddle Landing Page",
-            "description":"Landing page",
-            "link":"https://mheyrie.github.io/huddle-landing-page-with-curved-sections-master/"
+            "id": "3",
+            "src": "./img/amazon-clone.png",
+            "title": "Amazon Clone",
+            "description": "E-commerce website",
+            "link": "https://clone-eshop.web.app/"
         },
         {
-            "id":"5",
-            "src":"./img/codegen.png",
-            "title":"Code Generator",
-            "description":"Feeling down? this code genetors will definetly make you feel better",
-            "link":"https://mheyrie.github.io/jsquotegenerator/"
+            "id": "4",
+            "src": "./img/huddle.png",
+            "title": "Huddle Landing Page",
+            "description": "Landing page",
+            "link": "https://mheyrie.github.io/huddle-landing-page-with-curved-sections-master/"
         },
         {
-            "id":"6",
-            "src":"./img/codegen.png",
-            "title":"Code Generator",
-            "description":"Feeling down? this code genetors will definetly make you feel better",
-            "link":"https://mheyrie.github.io/jsquotegenerator/"
+            "id": "5",
+            "src": "./img/codegen.png",
+            "title": "Code Generator",
+            "description": "Feeling down? this code genetors will definetly make you feel better",
+            "link": "https://mheyrie.github.io/jsquotegenerator/"
         },
         {
-            "id":"7",
-            "src":"./img/shoebay.png",
-            "title":"ShoeBay",
-            "description":"Eshop for shoes",
-            "link":"https://mheyrie.github.io/shoesbay/"
+            "id": "6",
+            "src": "./img/codegen.png",
+            "title": "Code Generator",
+            "description": "Feeling down? this code genetors will definetly make you feel better",
+            "link": "https://mheyrie.github.io/jsquotegenerator/"
+        },
+        {
+            "id": "7",
+            "src": "./img/shoebay.png",
+            "title": "ShoeBay",
+            "description": "Eshop for shoes",
+            "link": "https://mheyrie.github.io/shoesbay/"
         }
     ]
 }
