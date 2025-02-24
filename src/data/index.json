@@ -57,7 +57,7 @@
     ],
     "portfolio": [
         {
-            "id": "",
+            "id": "9",
             "src": "./img/zuri.jpg",
             "title": "Zuri-Africa",
             "description": "Tailwind-Css, Context, Vite",
