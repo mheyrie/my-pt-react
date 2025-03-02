@@ -1,73 +1,71 @@
 {
-    "skills": [
-        {
-            "id": "1",
-            "src": "./img/html.png",
-            "title": "HTML",
-            "description": "HTML stands for Hyper Text Markup Language. HTML is the standard markup language for creating Web pages."
-        },
-        {
-            "id": "2",
-            "src": "./img/css.png",
-            "title": "CSS",
-            "description": "CSS, or Cascading Style Sheets, offers a flexible way to style web content, with styles originating from browser defaults, user preferences, or web designers."
-        },
-        {
-            "id": "3",
-            "src": "./img/js.png",
-            "title": "JavaScript",
-            "description": "JavaScript is a scripting or programming language that allows you to implement complex features on web pages."
-        },
-        {
-            "id": "4",
-            "src": "./img/React.png",
-            "title": "React",
-            "description": "React is the library for web and native user interfaces. Build user interfaces out of individual pieces called components written in JavaScript."
-        },
-        {
-            "id": "5",
-            "src": "./img/python.png",
-            "title": "Python",
-            "description": "Python is a popular programming language. Python can be used on a server to create web applications."
-        },
-        {
-            "id": "6",
-            "src": "./img/scss.png",
-            "title": "SASS",
-            "description": "Sass is an easy-to-use styling language that helps reduce a lot of the repetition and maintainability challenges of traditional CSS"
-        },
-        {
-            "id": "7",
-            "src": "./img/flask.png",
-            "title": "Flask",
-            "description": "Flask is a web framework, it's a Python module that lets you develop web applications easily."
-        },
-        {
-            "id": "8",
-            "src": "./img/sql.png",
-            "title": "SQL",
-            "description": "SQL is a standard programming language used to operate Relational Databases and carry out various operations such as inserting, manipulating, updating, and retrieving data from relational databases."
-        },
-        {
-            "id": "9",
-            "src": "./img/tailwind.png",
-            "title": "Tailwind-CSS",
-            "description": "Tailwind CSS is a utility-first CSS framework for rapidly building modern websites without ever leaving your HTML."
-        }
-    ],
+    "skills": {
+        "frontend": [
+            {
+                "id": "1",
+                "title": "HTML"
+            },
+            {
+                "id": "2",
+                "title": "CSS"
+            },
+            {
+                "id": "3",
+                "title": "JavaScript"
+            },
+            {
+                "id": "4",
+                "title": "React"
+            },
+            {
+                "id": "5",
+                "title": "SASS"
+            },
+            {
+                "id": "6",
+                "title": "Tailwind-CSS"
+            },
+            {
+                "id": "10",
+                "title": "Next.js"
+            },
+            {
+                "id": "11",
+                "title": "Flutter & Dart"
+            }
+        ],
+        "backend": [
+            {
+                "id": "7",
+                "title": "Python"
+            },
+            {
+                "id": "8",
+                "title": "Flask"
+            },
+            {
+                "id": "9",
+                "title": "Node & Express.js"
+            },
+            {
+                "id": "13",
+                "title": "Nest.js"
+            }
+        ]
+    },
     "portfolio": [
         {
             "id": "9",
             "src": "./img/zuri.jpg",
             "title": "Zuri-Africa",
-            "description": "Tailwind-Css, Context, Vite",
+            "description": "React, Firebase, Tailwind-CSS",
             "link": "https://www.zuriafrica.com/"
         },
         {
             "id": "8",
             "src": "./img/netflix.jpg",
             "title": "Netflix Clone",
-            "description": "React, Firebase",
+            "description": "React, Firebase, Node.js",
             "link": "https://netflix-clone-91dw.onrender.com/"
         },
         {
