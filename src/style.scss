@@ -4,10 +4,11 @@ $card: rgb(225, 219, 219);
 
 body {
   margin: 20px;
+
 }
 
 .App {
-  max-width: 100%;
+  width: 100%;
   // min-width: 400px;
   //Global Styling
   * {
@@ -494,19 +495,23 @@ body {
 @media screen and (max-width: 1000px) {
   .App {
     section {
-      min-width: 600px;
+      width: 80%;
     }
-    min-width: 600px;
+    width: 90%;
 
     .btn_outline_primary {
       display: none;
     }
 
     // Nav Hambuger
+    .navbar{
+      width: auto;
+    }
     .nav_hamburger {
       display: flex;
       z-index: 200;
     }
+    
 
     .navbar_items {
       display: flex;
@@ -566,10 +571,10 @@ body {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: center;
+  
 
       .about_section_description {
-        width: 70%;
+        width: 90%;
       }
 
       .one {
