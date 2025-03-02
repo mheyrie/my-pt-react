@@ -14,7 +14,7 @@ function Portfolio(){
       <div className="portfolio_container_box">
         <div className="portfolio_container">
           <p className="sub_title">Recent Works</p>
-          <h2 className="section_heading"> My Portfolio </h2>
+          <h2 className="section_heading">My Portfolio </h2>
         </div>
         <div>
         <button className="btn btn-github">

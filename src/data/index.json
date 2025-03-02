@@ -71,6 +71,13 @@
             "link": "https://netflix-clone-91dw.onrender.com/"
         },
         {
+            "id": "4",
+            "src": "./img/huddle.png",
+            "title": "Huddle Landing Page",
+            "description": "Landing page",
+            "link": "https://mheyrie.github.io/huddle-landing-page-with-curved-sections-master/"
+        },
+        {
             "id": "1",
             "src": "./img/to-do.png",
             "title": "To-Do List",
@@ -85,6 +92,13 @@
             "link": "https://github.com/mheyrie/phase2-React-Project"
         },
         {
+            "id": "7",
+            "src": "./img/shoebay.png",
+            "title": "ShoeBay",
+            "description": "Eshop for shoes",
+            "link": "https://mheyrie.github.io/shoesbay/"
+        },
+        {
             "id": "3",
             "src": "./img/amazon-clone.png",
             "title": "Amazon Clone",
@@ -92,32 +106,11 @@
             "link": "https://clone-eshop.web.app/"
         },
         {
-            "id": "4",
-            "src": "./img/huddle.png",
-            "title": "Huddle Landing Page",
-            "description": "Landing page",
-            "link": "https://mheyrie.github.io/huddle-landing-page-with-curved-sections-master/"
-        },
-        {
             "id": "5",
             "src": "./img/codegen.png",
             "title": "Code Generator",
             "description": "Feeling down? this code genetors will definetly make you feel better",
             "link": "https://mheyrie.github.io/jsquotegenerator/"
-        },
-        {
-            "id": "6",
-            "src": "./img/codegen.png",
-            "title": "Code Generator",
-            "description": "Feeling down? this code genetors will definetly make you feel better",
-            "link": "https://mheyrie.github.io/jsquotegenerator/"
-        },
-        {
-            "id": "7",
-            "src": "./img/shoebay.png",
-            "title": "ShoeBay",
-            "description": "Eshop for shoes",
-            "link": "https://mheyrie.github.io/shoesbay/"
         }
     ]
 }
