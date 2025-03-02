@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
+import { toast } from "react-toastify";
 
 function ContactMe() {
   const [name, setName] = useState("");
@@ -24,6 +25,7 @@ function ContactMe() {
       .send(serviceId, templateId, templateParams, publicKey)
       .then((response) => {
         console.log("SUCCESS!", response);
+        toast.success("Message Sent Successfully"); 
         setName("");
         setEmail("");
         setMessage("");
