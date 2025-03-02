@@ -65,10 +65,10 @@
         },
         {
             "id": "8",
-            "src": "./img/receiptify.png",
-            "title": "Receiptify",
-            "description": "This is a collaborative project. It is a document generating platform such as receipts and invoices for small business owners",
-            "link": "https://github.com/orgs/Receiptify-development/repositories"
+            "src": "./img/netflix.jpg",
+            "title": "Netflix Clone",
+            "description": "React, Firebase",
+            "link": "https://netflix-clone-91dw.onrender.com/"
         },
         {
             "id": "1",
