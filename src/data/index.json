@@ -55,35 +55,43 @@
     },
     "portfolio": [
         {
-            "id": "9",
+            "id": "1",
             "src": "./img/zuri.jpg",
             "title": "Zuri-Africa",
             "description": "React, Firebase, Tailwind-CSS",
             "link": "https://www.zuriafrica.com/"
         },
         {
-            "id": "8",
+            "id": "2",
             "src": "./img/netflix.jpg",
             "title": "Netflix Clone",
             "description": "React, Firebase, Node.js",
             "link": "https://netflix-clone-91dw.onrender.com/"
         },
         {
+            "id": "3",
+            "src": "./img/edumay.png",
+            "title": "Edu May",
+            "description": "HTML, CSS, JavaScript",
+            "link": "https://mheyrie.github.io/edu-website-hcj/"
+        },
+        
+        {
             "id": "4",
             "src": "./img/huddle.png",
             "title": "Huddle Landing Page",
-            "description": "Landing page",
+            "description": "React, Tailwind",
             "link": "https://mheyrie.github.io/huddle-landing-page-with-curved-sections-master/"
         },
         {
-            "id": "1",
+            "id": "5",
             "src": "./img/to-do.png",
             "title": "To-Do List",
             "description": "This is a to-do list use to update and remove/delete completed task",
             "link": "https://mheyrie.github.io/todo-list-phase1/"
         },
         {
-            "id": "2",
+            "id": "6",
             "src": "./img/first-recipe-attempt.png",
             "title": "Nigeria Food Recipe",
             "description": "This shows different Nigeria cuisine and ingredients",
@@ -97,14 +105,14 @@
             "link": "https://mheyrie.github.io/shoesbay/"
         },
         {
-            "id": "3",
+            "id": "8",
             "src": "./img/amazon-clone.png",
             "title": "Amazon Clone",
             "description": "E-commerce website",
             "link": "https://clone-eshop.web.app/"
         },
         {
-            "id": "5",
+            "id": "9",
             "src": "./img/codegen.png",
             "title": "Code Generator",
             "description": "Feeling down? this code genetors will definetly make you feel better",
