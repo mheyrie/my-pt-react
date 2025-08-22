@@ -118,5 +118,13 @@
             "description": "Feeling down? this code genetors will definetly make you feel better",
             "link": "https://mheyrie.github.io/jsquotegenerator/"
         }
+    ,
+        {
+            "id": "10",
+            "src": "./img/codegen.png",
+            "title": "Digital Care App",
+            "description": "Patient - Doctor Management system",
+            "link": "https://digitalcare-git-main-mheyries-projects.vercel.app/"
+        }
     ]
 }
